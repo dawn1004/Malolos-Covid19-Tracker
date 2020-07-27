@@ -1,4 +1,4 @@
-# malolos_covid
+# malolos_covid19_tracker
 
 ## Project setup
 ```
