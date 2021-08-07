@@ -6,10 +6,12 @@
     </div>
 
     <div class="heading">
-      <h1>MALOLOS COVID-19</h1>
-      <h2>TACKER</h2>
-      <!-- <button>Download</button> -->
-      <v-btn color="#FF5D6C" dark font-size="136px" large width="160px">Download</v-btn>
+      <div>
+        <h1>MALOLOS COVID-19</h1>
+        <h2>TACKER</h2>
+        <!-- <button>Download</button> -->
+        <v-btn color="#FF5D6C" dark font-size="136px" large width="160px">Download</v-btn>        
+      </div>
     </div>
 
     <img class="viruses virus-1" src="../assets/virus.svg" alt />
@@ -47,8 +49,13 @@ export default {
   letter-spacing: 1.5px;
 }
 .heading {
+  /* margin-left: 140px;
+  margin-top: 100px; */
+  /* background: red; */
+  height: 80%;
+  display: flex;
+  align-items: center;
   margin-left: 140px;
-  margin-top: 100px;
 }
 .heading h1 {
   color: #263f8f;
